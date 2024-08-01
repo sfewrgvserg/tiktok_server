@@ -25,17 +25,17 @@ const UserSchema = new mongoose.Schema(
       require: true,
     },
     user_phone: {
-      type: Number,
+      type: String,
       require: true,
     },
     user_bio: {
-      type: string,
+      type: String,
       require: true,
       default: "The user has no bio",
     },
     user_profile: {
       type: String,
-      default: "/admin/assets/profile.png",
+      default: "/image/user_logo/User-icon.png",
     },
   },
   {

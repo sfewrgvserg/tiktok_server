@@ -4,7 +4,6 @@ const postSchema = new mongoose.Schema({
   created_by_user_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
-    require: true,
   },
   caption: {
     type: String,
